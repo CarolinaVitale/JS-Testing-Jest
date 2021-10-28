@@ -1,4 +1,4 @@
-// spec/calc.spec.js
+const sum = require('../src/calc');
 
 describe('The function sum() used in the Calculator', () => {
     it('should be a function', () => {

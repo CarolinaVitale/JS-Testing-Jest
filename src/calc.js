@@ -1,5 +1,3 @@
-// src/calc.js
-
 function sum(array) {
     if (array === undefined) {
         throw new Error('No parameter provided');
@@ -11,10 +9,6 @@ function sum(array) {
     return array.reduce((acc, value) => acc + value, 0);
 }
 
-// ...
-
-
-
 if (typeof module !== 'undefined') {
-    module.exports = sum
+    module.exports = sum;
 }
